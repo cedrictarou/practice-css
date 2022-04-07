@@ -18,8 +18,10 @@ $font-family-base: serif;
 
 /* Bootstrap を読み込む */
 @use "~bootstrap/scss/bootstrap.scss";
+/* reset.css を読み込む */
+@use "./reset.css";
 
 /* 自分のスタイルを書いていく */
-body {
-  font-feature-settings: "palt";
-}
+
+@use "./common.scss";
+@use "./top.scss"

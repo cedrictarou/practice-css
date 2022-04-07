@@ -8,7 +8,7 @@
     "start": "webpack serve",
     "build": "webpack --mode production",
     "build:dev": "webpack",
-    "prettier":"prettier --write '**/*.pug'"
+    "prettier": "prettier --write '**/*.index'"
   },
   "author": "",
   "license": "ISC",

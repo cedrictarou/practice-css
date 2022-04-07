@@ -16,7 +16,7 @@ module.exports = {
     filename: './javascripts/main.js',
   },
   devServer: {
-    watchFiles: ['src/**/*.pug'],
+    watchFiles: ['src/**/*.html'],
   },
 
   module: {
@@ -136,7 +136,7 @@ module.exports = {
       filename: './stylesheets/main.css',
     }),
     new HtmlWebpackPlugin({
-      template: './src/templates/index.pug',
+      template: './src/templates/index.html',
       filename: 'index.html',
     }),
     new CleanWebpackPlugin(),
