@@ -99,7 +99,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(jpg|png|jpeg)/,
+        test: /\.(jpg|png|jpeg|svg)/,
         type: 'asset/resource',
         generator: {
           filename: 'images/[name][ext]',
@@ -110,6 +110,10 @@ module.exports = {
           },
         ],
       },
+      // {
+      //   test: /\.svg$/,
+      //   loader: 'svg-inline-loader',
+      // },
       {
         test: /\.pug/,
         use: [
