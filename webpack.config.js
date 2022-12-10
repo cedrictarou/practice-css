@@ -143,6 +143,10 @@ module.exports = {
       template: './src/templates/index.html',
       filename: 'index.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/lesson.html',
+      filename: 'lesson.html',
+    }),
     new CleanWebpackPlugin(),
   ],
   // source-map方式でないと、CSSの元ソースが追跡できないため

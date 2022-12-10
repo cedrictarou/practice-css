@@ -23,5 +23,6 @@ $font-family-base: serif;
 
 /* 自分のスタイルを書いていく */
 
-@use "./common.scss";
-@use "./top.scss"
+// @use "./common.scss";
+// @use "./top.scss";
+@use "./lesson.scss";
